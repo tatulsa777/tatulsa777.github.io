@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootballTime - Ամեն բան ֆուտբոլի մասին</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="scroll_top"></div>
+    <div class="scroll_button scroll_hid">
+        <img src="img/ballon_dor.png" width="80px" height="80px" alt="">
+    </div>
+    <div id="main">
+        <div class="bg_main">
+            <div class="header">
+                <div class="container cont_1">
+                    <nav class="navHamburger" role="navigation">
+                        <label for="menuToggle" class="labelHamburger">
+                            <div id="menuToggle">
+                                <input type="checkbox">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <ul id="menu">
+                                    <li><a href="#main">Գլխավոր</a></li>
+                                    <li><a href="#tournaments">Մրցաշարեր</a></li>
+                                    <li><a href="#teams">Թիմեր</a></li>
+                                    <li><a href="#footballers">Ֆուտբոլիստներ</a></li>
+                                </ul>
+                            </div>
+                        </label>
+                    </nav>
+                    <div class="menu">
+                        <nav class="ulmenu nav_effect">
+                            <a href="#main" class="a_active" data-hover="Գլխավոր">Գլխավոր</a>
+                            <a href="#tournaments" data-hover="Մրցաշարեր">Մրցաշարեր</a>
+                        </nav>
+                    </div>
+                    <div class="logo anim"><a href="index.html"><img class="f_logo" src="img/logo.png" alt=""></a></div>
+                    <div class="menu">
+                        <nav class="ulmenu nav_effect">
+                            <a href="#teams" data-hover="Թիմեր">Թիմեր</a>
+                            <a href="#footballers" data-hover="Ֆուտբոլիստներ">Ֆուտբոլիստներ</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="typed"></div>
+                <div class="cristiano">
+                    <img class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" src="img/cristiano.gif" width="400px" height="400px" alt="">
+                </div>
+
+                <div class="main_fb">
+                    <p class="wow bounce" data-wow-duration="1s" data-wow-delay="0.3s">ֆուտբոլը կյանք է</p>
+                    <p class="wow slideInUp" data-wow-duration="1s" data-wow-delay="0.5s">Վինս Լոմբարդի</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tournaments">
+        <div class="wc_starts">
+            <!-- TIMER -->
+            <div class="timer">
+                <div class="tourn_header wow slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <h2>Մրցաշարեր</h2>
+                </div>
+                <h3 class="wow slideInUp" data-wow-duration="1s" data-wow-delay="0.15s">Աշխարհի <span>առաջնություն</span> 2022</h3>
+                <div class="countdown-container wow slideInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="days-c">
+                        <p class="countdown-el big-text" id="days">0</p>
+                        <p class="small-text">օր</p>
+                    </div>
+                    <div class="hours-c">
+                        <p class="countdown-el big-text" id="hours">0</p>
+                        <p class="small-text">ժամ</p>
+                    </div>
+                    <div class="mins-c">
+                        <p class="countdown-el big-text" id="mins">0</p>
+                        <p class="small-text">րոպե</p>
+                    </div>
+                    <div class="seconds-c">
+                        <p class="countdown-el big-text" id="seconds">0</p>
+                        <p class="small-text">վայրկյան</p>
+                    </div>
+                </div>
+            </div>
+            <!-- TOP SCORERS -->
+            <div class="wc_top_scorers">
+                <div class="wcts_table wow pulse" data-wow-duration="1s">
+                    <div class="header_wcts">ԱԱ լավագույն ռմբարկուները</div>
+                    <table class="wc_table" cellspacing="0">
+                    </table>
+                    <button class="load_more_wc">
+                        <i class="fas fa-chevron-down"></i> ավելին
+                   </button>
+                </div>
+            </div>
+            <!-- SUCCESSFUL TEAMS -->
+            <div class="wc_success_teams">
+                <div class="header_wcts">ԱԱ լավագույն հավաքականները</div>
+                <div class="wc_steams_grid">
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <a rel="gallery-1" href="img/large/brasil.jpg" class="swipebox" title="Բրազիլիա">
+                                <img class="small_img" src="img/small/brasil.jpg" alt="Բրազիլիա">
+                                <div class="wc_teams_descr">
+                                    <h4>Բրազիլիա</h4>
+                                    <p>Գավաթներ - 5</p>
+                                    <p>1958, 1962, 1970, 1994, 2002</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">
+                            <a rel="gallery-1" href="img/large/germany.jpg" class="swipebox" title="Գերմանիա">
+                                <img class="small_img" src="img/small/germany.jpg" alt="Գերմանիա">
+                                <div class="wc_teams_descr">
+                                    <h4>Գերմանիա</h4>
+                                    <p>Գավաթներ - 4</p>
+                                    <p>1954, 1974, 1990, 2014</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <a rel="gallery-1" href="img/large/italy.jpg" class="swipebox" title="Իտալիա">
+                                <img class="small_img" src="img/small/italy.jpg" alt="Իտալիա">
+                                <div class="wc_teams_descr">
+                                    <h4>Իտալիա</h4>
+                                    <p>Գավաթներ - 4</p>
+                                    <p>1934, 1938, 1982, 2006</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+                            <a rel="gallery-1" href="img/large/argentina.jpg" class="swipebox" title="Արգենտինա">
+                                <img class="small_img" src="img/small/argentina.jpg" alt="Արգենտինա">
+                                <div class="wc_teams_descr">
+                                    <h4>Արգենտինա</h4>
+                                    <p>Գավաթներ - 2</p>
+                                    <p>1978, 1986</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <a rel="gallery-1" href="img/large/france.jpg" class="swipebox" title="Ֆրանսիա">
+                                <img class="small_img" src="img/small/france.jpg" alt="Ֆրանսիա">
+                                <div class="wc_teams_descr">
+                                    <h4>Ֆրանսիա</h4>
+                                    <p>Գավաթներ - 2</p>
+                                    <p>1998, 2018</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">
+                            <a rel="gallery-1" href="img/large/uruguay.jpg" class="swipebox" title="Ուրուգվայ">
+                                <img class="small_img" src="img/small/uruguay.jpg" alt="Ուրուգվայ">
+                                <div class="wc_teams_descr">
+                                    <h4>Ուրուգվայ</h4>
+                                    <p>Գավաթներ - 2</p>
+                                    <p>1930, 1950</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <a rel="gallery-1" href="img/large/england.jpg" class="swipebox" title="Անգլիա">
+                                <img class="small_img" src="img/small/england.jpg" alt="Անգլիա">
+                                <div class="wc_teams_descr">
+                                    <h4>Անգլիա</h4>
+                                    <p>Գավաթներ - 1</p>
+                                    <p>1966</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wc_st_grid_item">
+                        <div class="wcst_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">
+                            <a rel="gallery-1" href="img/large/spain.jpg" class="swipebox" title="Իսպանիա">
+                                <img class="small_img" src="img/small/spain.jpg" alt="Իսպանիա">
+                                <div class="wc_teams_descr">
+                                    <h4>Իսպանիա</h4>
+                                    <p>Գավաթներ - 1</p>
+                                    <p>2010</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wcst_button">
+                    <a href="tournaments.html" class="see_more">Տեսնել ավելին</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="teams">
+        <div class="teams_header">
+            <h2 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Թիմեր</h2>
+        </div>
+        <h3 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">Լավագույն թիմերը ՉԼ-ում</h3>
+
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            
+                            <img src="img/real_madrid_ucl.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">Գավաթներ - 13</span>
+                            <div class="blog-slider__title">Ռեալ Մադրիդ</div>
+                            <div class="blog-slider__text">Ակումբը պաշտոնապես ձևավորվել է 1902 թվականի մարտի 6-ին:</div>
+                            <a href="https://hy.wikipedia.org/wiki/%D5%8C%D5%A5%D5%A1%D5%AC_%D5%84%D5%A1%D5%A4%D6%80%D5%AB%D5%A4" target="_blank" class="blog-slider__button">ԱՎԵԼԻՆ</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="img/milan_ucl.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">Գավաթներ - 7</span>
+                            <div class="blog-slider__title">Միլան</div>
+                            <div class="blog-slider__text">Ակումբը պաշտոնապես ձևավորվել է 1899 թվականի դեկտեմբերի 13-ին:</div>
+                            <a href="https://hy.wikipedia.org/wiki/%D5%84%D5%AB%D5%AC%D5%A1%D5%B6_(%D6%86%D5%B8%D6%82%D5%BF%D5%A2%D5%B8%D5%AC%D5%A1%D5%B5%D5%AB%D5%B6_%D5%A1%D5%AF%D5%B8%D6%82%D5%B4%D5%A2)" target="_blank" class="blog-slider__button">ԱՎԵԼԻՆ</a>
+                        </div>
+                    </div>
+                    
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="img/bayern_ucl.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">Գավաթներ - 6</span>
+                            <div class="blog-slider__title">Բավարիա</div>
+                            <div class="blog-slider__text">Ակումբը պաշտոնապես ձևավորվել է 1900 թվականի փետրվարի 27-ին:</div>
+                            <a href="https://hy.wikipedia.org/wiki/%D4%B2%D5%A1%D5%BE%D5%A1%D6%80%D5%AB%D5%A1_(%D6%86%D5%B8%D6%82%D5%BF%D5%A2%D5%B8%D5%AC%D5%A1%D5%B5%D5%AB%D5%B6_%D5%A1%D5%AF%D5%B8%D6%82%D5%B4%D5%A2)" target="_blank" class="blog-slider__button">ԱՎԵԼԻՆ</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="img/liverpool_ucl.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">Գավաթներ - 6</span>
+                            <div class="blog-slider__title">Լիվերպուլ</div>
+                            <div class="blog-slider__text">Ակումբը պաշտոնապես ձևավորվել է 1892 թվականի հունիսի 3-ին:</div>
+                            <a href="https://hy.wikipedia.org/wiki/%D4%BC%D5%AB%D5%BE%D5%A5%D6%80%D5%BA%D5%B8%D6%82%D5%AC_%D5%96%D4%B1" target="_blank" class="blog-slider__button">ԱՎԵԼԻՆ</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog-slider__pagination"></div>
+        </div>
+        <div class="team_quiz">
+            <h3 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">Գուշակեք ֆուտբոլիստների թիմերը</h3>
+
+            <div class="game_area">
+                <div class="row_tq wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="club" id="barca"></div>
+                    <div class="club" id="chelsea"></div>
+                    <div class="club" id="orlandocity"></div>
+                </div>
+                <div class="row_tq wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" id="resultRow">
+                    <div class="pl_1">
+                        <div class="player" id="gullit" draggable="true">
+                            <p class="pl_name">Գուլլիտ</p>
+                        </div>
+                    </div>
+                    <div class="pl_2">
+                        <div class="player" id="kaka" draggable="true">
+                            <p class="pl_name">Կակա</p>
+                        </div>
+                    </div>
+                    <div class="pl_3">
+                        <div class="player" id="bojan" draggable="true">
+                            <p class="pl_name">Բոյան</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>ՉԼ հիմնը</h3>
+        <div class="hymn_container wow slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="podcast">
+            <h3 class="podcast__episode_title">Tony Britten - UEFA Champions League Anthem</h3>
+            <h5 class="podcast__title">
+                Թոնի Բրեթեն
+                <i>1992 թ.</i>
+            </h5>
+            <div class="podcast__meta">
+            <audio controls width="100%">
+                <source src="inc/Tony-Britten_-_UEFA-Champions-League-Anthem.mp3">
+            Your browser does not support the audio tag.
+            </audio>
+            <a href="#" class="artwork">
+                <img src="img/tony_britten.jpg" alt="Թոնի Բրեթեն">
+            </a>
+            </div>
+            </div>
+          </div>
+
+          <div class="t_sm_button">
+            <a href="teams.html" class="see_more">Տեսնել ավելին</a>
+        </div>
+    </div>
+    <div id="footballers">
+        <div class="footballers_header">
+            <h2 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Ֆուտբոլիստներ</h2>
+        </div>
+        <div class="best_in_history">
+            <div class="h_footballers">
+                <h3 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">Պատմության լավագույնները</h3>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card-wrapper wow zoomIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <div class="card-1 card-object card-object-hf"><a class="face front" href="">
+                      <div class="title-wrapper">
+                        <div class="title">Ռոնալդու</div>
+                        <div class="subtitle">Պորտուգալիա</div>
+                      </div></a><a class="face back" href="">
+                      <div class="img-wrapper">
+                        <div class="avatar"></div>
+                      </div>
+                      <div class="info-wrapper">
+                        <div class="info-title">Ռոնալդու</div>
+                        <ul class="info-content">
+                          <li class="info-content-item">Ոսկե գնդակ <span>5 ՈԳ</span></li>
+                          <li class="info-content-item">Տիտղոսներ <span>33</span></li>
+                          <li class="info-content-item">Գոլեր <span>801</span></li>
+                        </ul>
+                      </div></a></div>
+                </div>
+                <div class="card-wrapper wow zoomIn" data-wow-duration="1s" data-wow-delay="0.25s">
+                  <div class="card-2 card-object card-object-hf"><a class="face front" href="">
+                      <div class="title-wrapper">
+                        <div class="title">Մեսսի</div>
+                        <div class="subtitle">Արգենտինա</div>
+                      </div></a><a class="face back" href="">
+                      <div class="img-wrapper">
+                        <div class="avatar"></div>
+                      </div>
+                      <div class="info-wrapper">
+                        <div class="info-title">Մեսսի</div>
+                        <ul class="info-content">
+                          <li class="info-content-item">Ոսկե գնդակ <span>7 ՈԳ</span></li>
+                          <li class="info-content-item">Տիտղոսներ <span>37</span></li>
+                          <li class="info-content-item">Գոլեր <span>756</span></li>
+                        </ul>
+                      </div></a></div>
+                </div>
+                <div class="card-wrapper wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div class="card-3 card-object card-object-hf"><a class="face front" href="">
+                      <div class="title-wrapper">
+                        <div class="title">Պելե</div>
+                        <div class="subtitle">Բրազիլիա</div>
+                      </div></a><a class="face back" href="">
+                      <div class="img-wrapper">
+                        <div class="avatar"></div>
+                      </div>
+                      <div class="info-wrapper">
+                        <div class="info-title">Պելե</div>
+                        <ul class="info-content">
+                          <li class="info-content-item">Ոսկե գնդակ <span>1 ՈԳ</span></li>
+                          <li class="info-content-item">Տիտղոսներ <span>14</span></li>
+                          <li class="info-content-item">Գոլեր <span>767</span></li>
+                        </ul>
+                      </div></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- best scorers -->
+        <div class="best_goalscorers_box">
+            <div class="best_goalscorers wow pulse" data-wow-duration="1s">
+                <div class="header_gscorer">Պատմության լավագույն ռմբարկուները</div>
+                <table class="gscorer_table" cellspacing="0">
+                </table>
+                <button class="load_more_gs">
+                    <i class="fas fa-chevron-down"></i> ավելին
+               </button>
+            </div>
+            <div class="t_sm_button">
+                <a href="footballers.html" class="see_more">Տեսնել ավելին</a>
+            </div>
+        </div>
+        <div class="footer">
+            <h3 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.28s">Հետ. կապ</h3>
+            <div class="feedback wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+                <ul class="feedback_ul">
+                    <li>
+                        <a href="tel:+37477677959"><i class="fas fa-phone-alt"></i> +(374) 77 677-959</a>
+                    </li>
+                    <li>
+                        <a href="mailto:tatulsargsyan777@gmail.com"><i class="far fa-envelope-open"></i> tatulsargsyan777@gmail.com</a>
+                    </li>
+                    <li>
+                        <button data-custom-open="modal-1" role="button"><i class="fas fa-map-marker-alt"></i> Ք. Երևան, Մամիկոնյանց 52</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_hr wow fadeIn" data-wow-duration="1s" data-wow-delay="0.22s"></div>
+            <div class="social_icons wow fadeIn" data-wow-duration="1s" data-wow-delay="0.19s">
+                <div class="soc_icon">
+                    <a class="btn_soc" href="https://facebook.com/profile.php?id=100005333190375" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="soc_icon">
+                    <a class="btn-gradient instagram" href="https://instagram.com/tatul_sa777" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="soc_icon">
+                    <a class="btn-gradient twitter" href="https://twitter.com/tatul_sa777" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer_hr wow fadeIn" data-wow-duration="1s" data-wow-delay="0.16s"></div>
+            <div class="mini_menu wow fadeIn" data-wow-duration="1s" data-wow-delay="0.13s">
+                <a href="tournaments.html">Մրցաշարեր </a>
+                <span>/</span>
+                <a href="teams.html">Թիմեր </a>
+                <span>/</span>
+                <a href="footballers.html">Ֆուտբոլիստներ</a>
+            </div>
+            <div class="copyright wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                <p>&#169; 2021 FootballTime.am&#8482;</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="false">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <header class="modal__header">
+                    <h2 class="modal__title" id="modal-1-title"> Ինչպե՞ս գտնել մեզ </h2>
+                        <button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
+                </header> 
+                <div class="modal__content" id="modal-1-content"> 
+                    <div id="map"></div>
+                    <div id="viewContainer"></div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=97bf4b9d-8bba-45db-a2e4-80065ccce615"></script>
+    <script src="https://cdn.jsdelivr.net/npm/micromodal/dist/micromodal.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/player.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</body>
+</html>

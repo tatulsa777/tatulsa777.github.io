@@ -1,0 +1,253 @@
+@media screen and (max-width: 1400px) {
+  /* MAIN */
+  .main .header .container .menu nav a {
+      font-size: 1.25em !important;
+  }
+  /* FOOTER */
+}
+@media screen and (max-width: 1200px) {
+    /* MAIN */
+    .header .menu nav a {
+        margin: 15px 10px !important;
+        font-size: 1.1em !important;
+    }
+    .f_logo {
+      height: 80px !important;
+    }
+    /* FOOTER */
+}
+
+@media screen and (max-width: 992px) {
+    /* MAIN */
+    .navHamburger {
+      display: block !important;
+  }
+  .menu {
+      display: none !important;
+  }
+  .header_wcts {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      height: 100px;
+  }
+  .cont_1 {
+      padding: 0 50px !important;
+  }
+  .f_logo {
+      height: 70px;
+  }
+    /* TOURNAMENTS */
+    .wc_top_scorers, .best_goalscorers_box {
+        padding: 40px 10px !important;
+    }
+    /* TEAMS */
+
+     #teams .hymn_container {
+       /* margin: 20px 10px !important; */
+       max-width: 97% !important; 
+    } 
+
+    #tournaments .wc_starts .wc_success_teams .wc_steams_grid {
+      grid-template-areas: "wc_grid_item1 wc_grid_item1"
+      "wc_grid_item2 wc_grid_item2"
+      "wc_grid_item3 wc_grid_item3"
+      "wc_grid_item4 wc_grid_item4"
+      "wc_grid_item5 wc_grid_item5"
+      "wc_grid_item6 wc_grid_item6"
+      "wc_grid_item7 wc_grid_item7"
+      "wc_grid_item8 wc_grid_item8" !important;
+    }
+    #tournaments .wc_starts .wc_success_teams .header_wcts {
+      margin: 0 !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* MAIN */
+    /* MAIN */
+    .main .bg_main > .container {
+      font-size: 35px !important;
+    }
+
+    /* TOURNAMENTS */
+    /* wc starts */
+    .countdown-container {
+        min-width: auto !important;
+    }  
+    .cont_1 {
+      padding: 0 40px !important;
+  }
+  /* TEAMS */
+  .club {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .player {
+    width: 115px !important;
+    height: 155px !important;
+  }
+  p.pl_name{
+    top: 112px !important;
+}
+}
+@media screen and (max-width: 700px) {
+    /* MAIN */
+    .main .bg_main > .container {
+        font: 22px/1.5 sans-serif;
+    }
+    /* TOURNAMENTS */
+    /* table */
+    table, tr, td, tbody {
+        display: block;
+      }
+    
+      td:first-child {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100px;
+      }
+      td:not(:first-child) {
+        clear: both;
+        margin-left: 100px;
+        padding: 4px 20px 4px 90px;
+        position: relative;
+        text-align: left;
+      }
+      td:not(:first-child):before {
+        color: darksalmon;
+        content: "";
+        display: block;
+        left: 0;
+        position: absolute;
+      }
+      .wc_top_scorers td:nth-child(2):before {
+        content: "Անուն:";
+      }
+      .wc_top_scorers td:nth-child(3):before {
+        content: "Թիմ:";
+      }
+      .wc_top_scorers td:nth-child(4):before {
+        content: "Խաղեր:";
+      }
+      .wc_top_scorers td:nth-child(5):before {
+        content: "Գոլեր:";
+      }
+      .wc_top_scorers td:nth-child(6):before {
+        content: "11 մ:";
+      }
+      .wc_top_scorers td:nth-child(7):before {
+        content: "Ø:";
+      }
+
+      .best_goalscorers_box td:nth-child(2):before {
+        content: "Անուն:";
+      }
+      .best_goalscorers_box td:nth-child(3):before {
+        content: "Ազգություն:";
+      }
+      .best_goalscorers_box td:nth-child(4):before {
+        content: "Խաղեր:";
+      }
+      .best_goalscorers_box td:nth-child(5):before {
+        content: "Գոլեր:";
+      }
+      .best_goalscorers_box td:nth-child(6):before {
+        content: "Ø:";
+      }
+      .best_goalscorers_box td:nth-child(7):before {
+        content: "Հավաքական:";
+      }
+      tr {
+        padding: 10px 0;
+        position: relative;
+      }
+      tr:first-child {
+        display: none;
+      }
+      #tournaments .wc_starts .wc_top_scorers .load_more_wc, .best_goalscorers .load_more_gs {
+        margin-left: 0;
+        bottom: 17px !important;
+        right: 10px;
+      }
+      #tournaments .wc_starts .wc_top_scorers table td:nth-of-type(2), #tournaments .wc_starts .wc_top_scorers table td:nth-of-type(3), #footballers .best_goalscorers_box table td:nth-of-type(2), #footballers .best_goalscorers_box table td:nth-of-type(3) {
+        width: auto !important;
+      }
+}
+@media screen and (max-width: 576px) {
+    /* MAIN */
+    .main .bg_main > .container {
+      font-size: 33px !important;
+      letter-spacing: 1px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    /* TOURNAMENTS */
+    .header_wcts, .header_gscorer {
+        background-color: transparent;
+        color: white;
+        font-size: 2em;
+        font-weight: 700;
+        padding: 0;
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+      }
+      .wc_starts .wc_top_scorers table td, .best_goalscorers table td {
+        padding: 0 !important;
+      }
+      .wc_starts .wc_top_scorers .header_wcts, .best_goalscorers .header_gscorer {
+        font-size: 1.1em !important;
+        padding: 2rem !important;
+      }
+      .table_img {
+        border: 3px solid;
+        border-color: #af8c9d;
+        height: 100px;
+        margin: 0.5rem 0;
+        width: 100px;
+      }
+      td {
+        width: 100% !important;
+      }
+      td:first-child {
+        background-image: linear-gradient(315deg, #af8c9d 0%, darksalmon 100%);
+        border-bottom: 1px solid #af8c9d;
+        border-radius: 10px 10px 0 0;
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        width: 100% !important;
+      }
+      td:not(:first-child) {
+        margin: 0;
+        padding: 5px 1em;
+        width: 100%;
+      }
+      td:not(:first-child):before {
+        font-size: 0.8em;
+        padding-top: 0.3em;
+        position: relative;
+      }
+      td:last-child {
+        padding-bottom: 1rem !important;
+      }
+    
+      tr {
+        background-color: white !important;
+        border: 1px solid #af8c9d;
+        border-radius: 10px;
+        box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+        margin: 0.5rem 0;
+        padding: 0;
+      }
+    
+      .wcts_table, .best_goalscorers {
+        border: none;
+        box-shadow: none;
+        overflow: visible;
+      }
+      #tournaments .wc_starts .wc_top_scorers .load_more_wc {
+        bottom: 15px !important;
+      }
+}
+@media screen and (max-width: 321px) {
+    /* MAIN */
+}

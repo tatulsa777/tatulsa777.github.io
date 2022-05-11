@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "img":"cristiano.jpg",
+        "name":"Կրիշտիանու Ռոնալդու",
+        "team":"Պորտուգալիա",
+        "games":"1110",
+        "goals":"802",
+        "nat_team_goals":"115"
+    },
+    {
+        "id":2,
+        "img":"pele.jpg",
+        "name":"Պելե",
+        "team":"Բրազիլիա",
+        "games":"840",
+        "goals":"765",
+        "nat_team_goals":"77"
+    },
+    {
+        "id":3,
+        "img":"messi.jpg",
+        "name":"Լիոնել Մեսսի",
+        "team":"Արգենտինա",
+        "games":"986",
+        "goals":"756",
+        "nat_team_goals":"80"
+    },
+    {
+        "id":4,
+        "img":"romario.jpg",
+        "name":"Ռոմարիո",
+        "team":"Բրազիլիա",
+        "games":"1000",
+        "goals":"753",
+        "nat_team_goals":"71"
+    },
+    {
+        "id":5,
+        "img":"puskas.jpg",
+        "name":"Ֆերենց Պուշկաշ",
+        "team":"Հունգարիա",
+        "games":"793",
+        "goals":"729",
+        "nat_team_goals":"84"
+    },
+    {
+        "id":6,
+        "img":"bican.jpg",
+        "name":"Յոզեֆ Բիցան",
+        "team":"Չեխիա",
+        "games":"621",
+        "goals":"720",
+        "nat_team_goals":"29"
+    },
+    {
+        "id":7,
+        "img":"jones.jpg",
+        "name":"Ջիմմի Ջոնս",
+        "team":"Հյուսիսային Իռլանդիա",
+        "games":"637",
+        "goals":"647",
+        "nat_team_goals":"1"
+    },
+    {
+        "id":8,
+        "img":"muller.jpg",
+        "name":"Գերդ Մյուլլեր",
+        "team":"Գերմանիա",
+        "games":"793",
+        "goals":"634",
+        "nat_team_goals":"68"
+    },
+    {
+        "id":9,
+        "img":"eusebio.jpg",
+        "name":"Էուսեբիո",
+        "team":"Պորտուգալիա",
+        "games":"745",
+        "goals":"622",
+        "nat_team_goals":"41"
+    },
+    {
+        "id":10,
+        "img":"bambrick.jpg",
+        "name":"Ջո Բեմբրիկ",
+        "team":"Հյուսիսային Իռլանդիա",
+        "games":"566",
+        "goals":"616",
+        "nat_team_goals":"12"
+    }
+]

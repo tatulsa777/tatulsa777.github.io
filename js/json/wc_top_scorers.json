@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "img":"klose.jpg",
+        "name":"Միրոսլավ Կլոզե",
+        "team":"Գերմանիա",
+        "games":"24",
+        "goals":"16",
+        "penalties":"0"
+    },
+    {
+        "id":2,
+        "img":"ronaldo.jpg",
+        "name":"Ռոնալդո",
+        "team":"Բրազիլիա",
+        "games":"19",
+        "goals":"15",
+        "penalties":"1"
+    },
+    {
+        "id":3,
+        "img":"muller.jpg",
+        "name":"Գերդ Մյուլլեր",
+        "team":"Գերմանիա",
+        "games":"13",
+        "goals":"14",
+        "penalties":"1"
+    },
+    {
+        "id":4,
+        "img":"fontaine.jpg",
+        "name":"Ժյուստ Ֆոնտեն",
+        "team":"Ֆրանսիա",
+        "games":"6",
+        "goals":"13",
+        "penalties":"0"
+    },
+    {
+        "id":5,
+        "img":"pele.jpg",
+        "name":"Պելե",
+        "team":"Բրազիլիա",
+        "games":"14",
+        "goals":"12",
+        "penalties":"0"
+    },
+    {
+        "id":6,
+        "img":"klinsmann.jpg",
+        "name":"Յուրգեն Կլինսման",
+        "team":"Գերմանիա",
+        "games":"17",
+        "goals":"11",
+        "penalties":"0"
+    },
+    {
+        "id":7,
+        "img":"",
+        "name":"Շանդոր Կոչիշ",
+        "team":"հունգարիա",
+        "games":"5",
+        "goals":"11",
+        "penalties":"0"
+    },
+    {
+        "id":8,
+        "img":"batistuta.jpg",
+        "name":"Գաբրիել Բատիստուտա",
+        "team":"Արգենտինա",
+        "games":"12",
+        "goals":"10",
+        "penalties":"4"
+    },
+    {
+        "id":9,
+        "img":"kubilyas.jpg",
+        "name":"Թեոֆիլո Կուբիլյաս",
+        "team":"Պերու",
+        "games":"13",
+        "goals":"10",
+        "penalties":"2"
+    },
+    {
+        "id":10,
+        "img":"gjegoj.jpg",
+        "name":"Գժեգոժ Լյատո",
+        "team":"Լեհաստան",
+        "games":"20",
+        "goals":"10",
+        "penalties":"0"
+    }
+]
